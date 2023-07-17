@@ -1,0 +1,65 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+   height: 100%;
+ }
+ 
+ /* 
+  * Optional: Makes the sample page fill the window. 
+  */
+ html,
+ body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ #floating-panel {
+   position: absolute;
+   top: 55px;
+   left: 25%;
+   z-index: 5;
+   background-color: #fff;
+   padding: 5px;
+   border: 1px solid #999;
+   text-align: center;
+   font-family: "Roboto", "sans-serif";
+   line-height: 30px;
+   padding-left: 10px;
+ }
+ .social-icon {
+  display: inline-block;
+  margin-left: 90px; 
+  margin-top: 0px;/* Adjust the margin as needed */
+}
+/* Adjust the size of the Facebook logo as needed */
+.social-icon img {
+  width: 30px;
+  height: 30px;
+  top: 133%;
+}
+.footer_section{
+  background-color: #999; /* Replace with your desired color */
+  color: #333; /* Replace with your desired text color */
+  padding: 20px; /* Adjust the padding as needed */
+}
+.head{
+    text-align: center;
+    
+}
+h12{
+    left: 20%;
+    top: 133%;
+}
+p{
+    position: absolute;
+    left: 35%;
+    top: 133%; 
+}
